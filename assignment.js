@@ -1,5 +1,3 @@
-// https://github.com/jowelkhalid/assignment/blob/main/assignment.js
-
 // 1. kilometerToMeter start
 function kilometerToMeter(kilometer) {
   if (kilometer < 0) {
@@ -30,30 +28,7 @@ var result = budgetCalculator(3, -3, 3);
 console.log(result);
 // 2. budgetCalculator end
 
-// 3. hotelCost start
-function hotelCost(rent){
-var days = 30;
-var firstTenDays = 100;
-if(days<= 10){
-  days = firstTenDays * 1;
-}else if(days<=20){
-  var tenDays = 10 * 100;
-  var remainingDays= days - 10;
-  var anotherRemainingDays = remainingDays * 100;
-  days - tenDays + anotherRemainingDays;
-
-console.log(days);
-}else{
-  var tenDays = 10 * 10;
-  var remainingDays = days - 20;
-  var totalDays = remainingDays * 30;
-  day = tenDays + anotherRemainingDays + totalDays;
-  return hotelCost;
-}
-console.log(days);
-// 3. hotelCost end
-
-// 4. megaFriend start
+// 3. megaFriend start
 function megaFriend(array) {
   if (array.length == 0) {
     return "The array is emty";
@@ -70,4 +45,4 @@ function megaFriend(array) {
 }
 var result = megaFriend(["shafiq", "parvez", "abusaleh", "mamun", "rafiq"]);
 console.log(result);
-// 4. megaFriend ends
+// 3. megaFriend end
