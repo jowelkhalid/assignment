@@ -1,5 +1,7 @@
+//github.com/jowelkhalid/assignment
+
 // 1. kilometerToMeter start
-function kilometerToMeter(kilometer) {
+https: https: https: https: function kilometerToMeter(kilometer) {
   if (kilometer < 0) {
     var massage = "Distance can not be nagative";
     return massage;
